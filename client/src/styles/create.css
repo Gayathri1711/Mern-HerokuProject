@@ -1,0 +1,76 @@
+input{
+    font-family: "Montserrat";
+    font-weight: bold;
+}
+
+textarea{
+    font-family: "Montserrat";
+    font-weight: bold;
+}
+button{
+    background-color: #454545;
+    width:27%;
+    height:12%;
+    margin-left: 40%;
+    color: white;
+    font-family: "Montserrat";
+    font-weight: bold;
+}
+
+.content{
+    height:80%;
+    display: flex;
+    flex-direction: row;
+    font-family: "Montserrat";
+    font-weight: bold;
+}
+
+.image-div{
+    height: 50%;
+    width:60%;
+    border: 0.75px solid black;
+    margin-left: 25%;
+}
+
+.left-desc{
+    display: flex;
+    width:60%;
+    flex-direction: column;
+    justify-content: space-around;
+    line-height: 5rem;
+}
+
+.right-desc{
+    display: flex;
+    width:40%;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#title{
+    padding: 0.25rem;
+    width:70%;
+    height:20%;
+    margin-left: 20%;
+}
+
+#name{
+    padding: 0.25rem;
+    width:70%;
+    height:40%;
+    margin-left: 20%;
+}
+
+#image{
+    padding: 0.25rem;
+    width:70%;
+    height: 10%;
+    margin-left: 20%;
+}
+
+#url{
+    padding: 0.25rem;
+    width:70%;
+    height: 10%;
+    margin-left: 20%;
+}
